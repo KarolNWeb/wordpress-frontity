@@ -2,8 +2,8 @@ const settings = {
   "name": "my-first-frontity-project",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
+      "url": "https://ebby.pl",
+      "title": "Test Frontity Shop",
       "description": "WordPress installation for Frontity development"
     }
   },
@@ -15,28 +15,24 @@ const settings = {
           "menu": [
             [
               "Home",
-              "/"
+              "/sample-page/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "konto",
+              "/my-account/"
             ],
             [
-              "Travel",
-              "/category/travel/"
+              "Sklep",
+              "/shop/"
             ],
             [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
+              "Koszyk",
+              "/cart/"
             ]
           ],
           "featured": {
             "showOnList": false,
-            "showOnPost": false
+            "showOnPost": true
           }
         }
       }
@@ -45,7 +41,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://test.frontity.org"
+          "url": "https://ebby.pl/"
         }
       }
     },
