@@ -41,7 +41,8 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://ebby.pl/"
+          "url": "https://ebby.pl/",
+          "homepage": "/homepage"
         }
       }
     },
